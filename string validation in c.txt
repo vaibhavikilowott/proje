@@ -1,0 +1,19 @@
+ // Online C compiler to run C program online
+#include <stdio.h>
+#include <stdbool.h>
+#include <ctype.h>
+int main() {
+    int n;
+    bool isdigit = true;
+   printf("enter a value");
+    scanf("%s",&n);
+    if isdigit(n)
+    {
+        printf("number");
+    }
+    else
+    {
+        printf("not a number");
+    }
+    return 0;
+}
